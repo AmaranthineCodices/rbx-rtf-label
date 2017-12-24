@@ -55,7 +55,7 @@ local function RTFLabel(props)
             else
                 print("break")
                 local newNode = subnode(node, node.Text:match((actualString.."(.+)$"):gsub("^%s*", "")))
-                table.insert(textNodes, newNode)
+                table.insert(textNodes, 1, newNode)
                 needToWrap = true
                 break
             end
