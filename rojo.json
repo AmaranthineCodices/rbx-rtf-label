@@ -1,0 +1,10 @@
+{
+  "name": "rbx-rtf-label",
+  "servePort": 8000,
+  "partitions": {
+    "rtf-label": {
+      "path": "src",
+      "target": "ReplicatedStorage.RTFLabel"
+    }
+  }
+}
